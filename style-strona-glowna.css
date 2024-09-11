@@ -1,0 +1,56 @@
+body {
+    font-family: Bahnschrift;
+    background-color: darkgray;
+}
+#cwiczenia {
+    width: 800px;
+    height: 1000px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+}
+#suplementy {
+    width: 800px;
+    height: 1000px;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    margin-right: 100px;
+}
+.cwiczenia {
+    background-image: url(cwiczenia.png);
+    width: 800px;
+    height: 1000px;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.5s ease;
+    margin-left: 100px;
+}
+.cwiczenia:hover {
+    transform: scale(1.05);
+}
+.suplementy {
+    background-image: url(suplementy1.png);
+    width: 800px;
+    height: 1000px;
+    float: left;
+    margin-left: 40px;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: transform 0.5s ease;
+}
+.suplementy:hover {
+    transform: scale(1.05);
+}
